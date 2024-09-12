@@ -1,0 +1,32 @@
+.call-action-sec{
+    padding: 60px 60px;
+}
+
+.call-action-sec p{
+    text-align: center;
+    padding-top: 20px;
+}
+.call-action-sec .buttons{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 40px;
+}
+.call-action-sec button{
+    padding: 15px 30px;
+    background-color: rgb(113, 162, 236);
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.call-action-sec button:hover{
+    background-color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    .call-action-sec{
+        padding: 60px 10px !important;
+    }
+}

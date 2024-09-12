@@ -1,0 +1,13 @@
+.Banner-heading{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 350px;
+    align-items: center;
+    background:linear-gradient(to right, rgb(100, 116, 139), rgb(254, 249, 195));
+}
+.Banner-heading h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #253048;
+}

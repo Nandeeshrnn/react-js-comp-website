@@ -1,0 +1,40 @@
+.container-contact{
+    width: 100%;
+    padding: 0px 60px;
+    display: flex;
+    flex-direction: row;
+    margin: 60px 0px;
+    gap: 90px;
+  }
+
+  .container-contact h1{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+    background: linear-gradient(rgb(0, 50, 93),rgb(255, 108, 29));
+    background-clip: text;
+    color: transparent;
+  }
+  .container-contact p{
+    font-size: 16px;
+    text-align: left;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    color: red;
+  }
+  .container-contact .para p{
+padding-top: 20px;
+color: black;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .container-contact{
+      width: 100%;
+      padding: 0px 10px !important;
+      display: flex;
+      flex-direction: column !important;
+      margin: 60px 0px;
+      gap: 90px;
+    }
+
+  }

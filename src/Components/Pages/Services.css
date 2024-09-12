@@ -1,0 +1,72 @@
+.services-page {
+    width: 100%;
+    padding: 0px 60px;
+}
+.about-company{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 60px 0px;
+    gap: 60px;
+}
+.services-page .about-company .section{
+    width: 50%;
+}
+.services-page .section img{
+    float: left;
+    border-radius: 10px;
+}
+.services-page .section h1{
+    text-align: left;
+}
+.services-page .section h6{
+    text-align: left;
+}
+.services-page .section p{
+    padding-top: 20px;
+}
+.services-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+    padding: 30px 0px 60px 0px ;
+}
+.services-card .card{
+    box-shadow: 10px 10px 8px rgba(217, 217, 217, 0.395), -1px -1px 8px rgb(231, 231, 231);
+    padding: 20px;
+    border-radius: 5px;
+}
+.services-card .card img{
+    width: 50px;
+}
+.services-card .card h1{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 0px;
+    color: rgb(40, 40, 40);
+}
+.services-faqs{
+    padding: 60px 0px;
+}
+.services-call{
+    background-color: rgb(228, 243, 255);
+   border-radius: 10px;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .services-page {
+        width: 100%;
+        padding: 0px 10px !important;
+    }
+    .services-page .about-company .section{
+        width: 100% !important;
+    }
+    .services-card{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr) !important;
+        gap: 30px !important;
+        padding: 30px 0px 60px 0px ;
+    }
+}

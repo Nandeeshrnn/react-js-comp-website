@@ -1,0 +1,182 @@
+.home-page{
+    width: 100%;
+    position: relative;
+}
+
+
+.slider1{
+    background-image: url('../../assets/img/slider1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.slider1::before, .slider2::before, .slider3::before, .slider4::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.235);
+    z-index: 1 ;
+}
+.slider2{
+    background-image: url('../../assets/img/slider2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.slider3{
+    background-image: url('../../assets/img/slider3.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    z-index: 999;
+}
+.slider4{
+    background-image: url('../../assets/img/slider4.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+.slider-head h1{
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 40px;
+  padding: 20px 90px;
+  z-index: 4;
+}
+
+.slider-head p{
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 20px;
+    z-index: 4;
+    padding: 0px 90px;
+}
+
+.conatiner{
+    max-width: 1280px;
+    width: 100%;
+    padding: 0px 60px;
+  }
+
+.about{
+    padding: 60px 0px;
+}
+.home-page .slick-next{
+    right: 30px !important;
+    z-index: 99;
+}
+.home-page .slick-prev{
+    left: 30px !important;
+    z-index: 99;
+}
+.home-page .slick-next::before{
+    color: white !important;
+}
+.home-page .slick-prev::before{
+    color: white !important;
+}
+
+.slick-prev:before, .slick-next:before {
+    color: #2a2a3a !important;
+
+}
+
+.programs{
+    background-color: rgba(237, 237, 237, 0.703);
+    margin: 90px 0px;
+    padding: 40px 0px;
+}
+
+.conatiner{
+    max-width: 1280px;
+    width: 100%;
+    padding: auto 60px;
+  }
+
+  .about-container{
+    width: 100%;
+    padding: 0px 60px;
+}
+.about-company{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 60px 0px;
+    gap: 60px;
+}
+.about-container .about-company .section{
+    width: 50%;
+}
+.about-container .section img{
+    float: left;
+    border-radius: 10px;
+}
+.about-container .section h1{
+    text-align: left;
+}
+.about-container .section h6{
+    text-align: left;
+}
+.about-container .section p{
+    padding-top: 20px;
+}
+.about-container .call-action{
+    background-color: rgb(228, 243, 255);
+    border-radius: 10px;
+}
+@media only screen and (max-width: 768px) {
+    .slider-head h1{
+        font-family: "Poppins", sans-serif;
+        color: white;
+        font-size: 24px;
+        padding: 20px 90px;
+        z-index: 4;
+      }
+      
+      .slider-head p{
+          font-family: "Poppins", sans-serif;
+          color: white;
+          font-size: 16px;
+          z-index: 4;
+          padding: 0px 90px;
+      }
+      .about-company{
+        display: flex;
+        flex-direction: column !important;
+        justify-content: space-between;
+        margin: 60px 0px;
+        gap: 20px !important;
+    }
+    .about-container{
+        width: 100%;
+        padding: 0px 10px !important;
+    } 
+    .about-container .about-company .section{
+        width: 100% !important
+    }
+
+    .conatiner{
+        padding: 0px 10px !important;
+    }
+    .programs{
+        margin: 70px 0px !important;
+        padding: 30px 0px !important; 
+    }
+  }

@@ -1,0 +1,56 @@
+.toggle ul{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid gray;
+}
+.toggle ul li{
+   padding: 20px 50px;
+   cursor: pointer;
+   flex-basis: 33.33%;
+   text-align: center;
+}
+
+.taggle-width{
+    padding: 40px 120px;
+    margin-top: 0px;
+}
+
+.content{
+    display: none;
+}
+.tg-ele{
+    background-color: rgb(109, 109, 109);
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.tg-active{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.togge-body{
+    border: 1px solid gray;
+    padding: 20px;
+}
+.togge-body h1{
+    text-align: left;
+}
+.togge-body p{
+    text-align: left;
+}
+@media only screen and (max-width: 768px) {
+
+    .taggle-width{
+        padding: 40px 10px !important;
+        margin-top: 0px;
+    }
+    .toggle ul{
+  
+        flex-direction: column !important;
+       
+    }
+}
